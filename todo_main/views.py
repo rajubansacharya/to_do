@@ -6,5 +6,6 @@ def home(request):
     context = {
         'tasks':tasks,
         'completed_task' : completed_task,
+        
     }
     return  render(request,'home.html' , context)
